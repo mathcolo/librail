@@ -7,12 +7,19 @@ addons:
   apt:
     sources:
     - kalakris-cmake
+    - ubuntu-toolchain-r-test
+    - llvm-toolchain-precise
     packages:
     - build-essential
     - libxml2
     - libssh2-1-dev
-    - clang
+    - clang-3.4
     - cmake
+    - gcc-4.8
+
+compiler:
+  - gcc-4.8
+  - clang-3.4
 
 before_install:
   - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
