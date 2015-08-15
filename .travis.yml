@@ -24,7 +24,8 @@ before_install:
 
 before_script:
   - wget http://www.cmake.org/files/v3.3/cmake-3.3.1-Linux-x86_64.tar.gz -O /tmp/cmake.tar.gz
-  - tar -xvf /tmp/cmake.tar.gz 
+  - tar -xvf /tmp/cmake.tar.gz
+  - ln -s $PWD/cmake-3.3.1-Linux-x86_64/bin/cmake $PWD/cmake-3.3.1-Linux-x86_64/bin/cmake-3.3
   - export PATH=$PATH:$PWD/cmake-3.3.1-Linux-x86_64/bin/ 
 
 language: c++
@@ -32,5 +33,5 @@ language: c++
 script:
   - mkdir build
   - cd build
-  - cmake ..
+  - cmake-3.3 ..
   - make
