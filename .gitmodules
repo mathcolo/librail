@@ -1,3 +1,6 @@
 [submodule "cpr"]
 	path = cpr
 	url = git@github.com:whoshuu/cpr.git
+[submodule "gason"]
+	path = gason
+	url = git@github.com:vivkin/gason.git
