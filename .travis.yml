@@ -15,13 +15,9 @@ addons:
     - libssh2-1-dev
     - clang-3.6
     - cmake
-    - gcc-4.8
-    - g++-4.8
-    - cpp-4.8
 
 compiler:
   - clang-3.6
-  - g++-4.8
 
 before_install:
   - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
@@ -30,7 +26,6 @@ before_install:
 language: c++
 
 script:
-  - cmake --version
   - mkdir build
   - cd build
   - cmake ..
