@@ -14,7 +14,6 @@ addons:
     - libxml2
     - libssh2-1-dev
     - clang-3.6
-    - cmake
 
 compiler:
   - clang-3.6
@@ -22,7 +21,12 @@ compiler:
 before_install:
   - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
   - git submodule update --init --recursive
-  
+
+before_script:
+  - wget http://www.cmake.org/files/v3.3/cmake-3.3.1-Linux-x86_64.tar.gz -O /tmp/cmake.tar.gz
+  - tar -xvf /tmp/cmake.tar.gz 
+  - export PATH=$PATH:$PWD/cmake-3.3.1-Linux-x86_64/bin/ 
+
 language: c++
 
 script:
