@@ -8,16 +8,20 @@ addons:
     sources:
     - kalakris-cmake
     - ubuntu-toolchain-r-test
-    - llvm-toolchain-precise
+    - llvm-toolchain-precise-3.6
     packages:
     - build-essential
     - libxml2
     - libssh2-1-dev
-    - clang-3.4
+    - clang-3.6
     - cmake
+    - gcc-4.8
+    - g++-4.8
+    - cpp-4.8
 
 compiler:
-  - clang-3.4
+  - clang-3.6
+  - g++-4.8
 
 before_install:
   - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
