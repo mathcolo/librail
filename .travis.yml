@@ -5,12 +5,17 @@ git:
     
 addons:
   apt:
+    sources:
+    - kalakris/cmake
     packages:
     - build-essential
     - libxml2
     - libssh2-1-dev
     - clang
     - cmake
+
+compiler:
+    - clang
 
 before_install:
   - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
@@ -19,6 +24,7 @@ before_install:
 language: c++
 
 script:
+  - cmake --version
   - mkdir build
   - cd build
   - cmake ..
