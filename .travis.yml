@@ -1,0 +1,45 @@
+sudo: false
+
+git:
+    submodules: false
+
+addons:
+  apt:
+    sources:
+    - kalakris-cmake
+    - ubuntu-toolchain-r-test
+    - llvm-toolchain-precise-3.6
+    packages:
+    - build-essential
+    - libxml2
+    - libssh2-1-dev
+    - clang-3.6
+    - g++-4.8
+    - gcc-4.8
+
+compiler:
+  - g++-4.8
+
+before_install:
+  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git submodule update --init --recursive
+
+before_script:
+  - wget http://www.cmake.org/files/v3.3/cmake-3.3.1-Linux-x86_64.tar.gz -O /tmp/cmake.tar.gz
+  - tar -xvf /tmp/cmake.tar.gz
+  - ln -s $PWD/cmake-3.3.1-Linux-x86_64/bin/cmake $PWD/cmake-3.3.1-Linux-x86_64/bin/cmake-3.3
+  - export PATH=$PATH:$PWD/cmake-3.3.1-Linux-x86_64/bin/
+  - export CXX=g++-4.8
+  - export CC=gcc-4.8
+  - cd rapidjson
+  - mkdir build
+  - cd build
+  - cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr .. && make && make install
+
+language: c++
+
+script:
+  - mkdir build
+  - cd build
+  - cmake-3.3 ..
+  - make
