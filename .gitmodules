@@ -4,3 +4,6 @@
 [submodule "gason"]
 	path = gason
 	url = git@github.com:vivkin/gason.git
+[submodule "rapidjson"]
+	path = rapidjson
+	url = https://github.com/miloyip/rapidjson.git
