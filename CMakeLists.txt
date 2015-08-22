@@ -27,12 +27,9 @@ INCLUDE(FindPackageHandleStandardArgs)
 # all listed variables are TRUE
 FIND_PACKAGE_HANDLE_STANDARD_ARGS(RAPID_JSON DEFAULT_MSG RAPID_JSON_INCLUDE_DIR)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 ")
 
-if (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  # using regular Clang or AppleClang
-  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -I${RAPID_JSON_INCLUDE_DIR} -I/usr/include/x86_64-linux-gnu/c++/4.8 -I/usr/include/c++/4.8 ")
-endif()
+include_directories(rapidjson/include)
 
 add_subdirectory(cpr)
 add_subdirectory(gason)
@@ -41,7 +38,6 @@ set(SOURCE_FILES main.cpp)
 add_executable(librail ${SOURCE_FILES})
 target_include_directories(librail PRIVATE cpr/include)
 target_include_directories(librail PRIVATE gason/src)
-target_include_directories(gason PRIVATE rapidjson/include)
 
 
 target_link_libraries(librail cpr)
