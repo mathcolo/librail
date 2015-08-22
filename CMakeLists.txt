@@ -5,14 +5,16 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 add_subdirectory(cpr)
 add_subdirectory(gason)
-add_subdirectory(rapidjson)
 
+
+find_package(RapidJSON REQUIRED)
+include_directories(rapidjson/include)
 
 set(SOURCE_FILES main.cpp)
 add_executable(librail ${SOURCE_FILES})
 target_include_directories(librail PRIVATE cpr/include)
 target_include_directories(librail PRIVATE gason/src)
-target_include_directories(librail PRIVATE rapidjson/include)
+
 
 target_link_libraries(librail cpr)
 target_link_libraries(librail gason)
