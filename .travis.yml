@@ -27,12 +27,12 @@ before_install:
 before_script:
   - wget http://www.cmake.org/files/v3.3/cmake-3.3.1-Linux-x86_64.tar.gz -O /tmp/cmake.tar.gz
   - git clone https://github.com/miloyip/rapidjson.git /tmp/rapidjson
-  - cp -r /tmp/rapidjson/include/ /usr/local/include
+  - cp -r /tmp/rapidjson/include/
   - tar -xvf /tmp/cmake.tar.gz
   - ln -s $PWD/cmake-3.3.1-Linux-x86_64/bin/cmake $PWD/cmake-3.3.1-Linux-x86_64/bin/cmake-3.3
-  - export PATH=$PATH:$PWD/cmake-3.3.1-Linux-x86_64/bin/
+  - export PATH=$PATH:$PWD/cmake-3.3.1-Linux-x86_64/bin/:/tmp/rapidjson/include
   - export CXX=g++-4.8
-  - export C=gcc-4.9
+  - export CC=gcc-4.9
 
 language: c++
 
