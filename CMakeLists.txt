@@ -4,11 +4,17 @@ project(librail)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 add_subdirectory(cpr)
+add_subdirectory(gason)
 
-set(CURL_TYPEOF_CURL_SOCKLEN_T int)
-set(CURL_SIZEOF_CURL_SOCKLEN_T ${SIZEOF_INT})
+
+find_package(RapidJSON REQUIRED)
+include_directories(rapidjson/include)
 
 set(SOURCE_FILES main.cpp)
 add_executable(librail ${SOURCE_FILES})
 target_include_directories(librail PRIVATE cpr/include)
+target_include_directories(librail PRIVATE gason/src)
+
+
 target_link_libraries(librail cpr)
+target_link_libraries(librail gason)
