@@ -32,7 +32,7 @@ before_script:
   - ln -s $PWD/cmake-3.3.1-Linux-x86_64/bin/cmake $PWD/cmake-3.3.1-Linux-x86_64/bin/cmake-3.3
   - export PATH=$PATH:$PWD/cmake-3.3.1-Linux-x86_64/bin/:/tmp/rapidjson/include
   - export CXX=g++-4.8
-  - export CC=gcc-4.9
+  - export CC=gcc-4.8
 
 language: c++
 
