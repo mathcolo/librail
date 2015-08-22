@@ -5,6 +5,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 add_subdirectory(cpr)
 add_subdirectory(gason)
+add_subdirectory(rapidjson)
 
 
 set(SOURCE_FILES main.cpp)
