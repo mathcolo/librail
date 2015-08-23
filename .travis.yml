@@ -13,7 +13,6 @@ addons:
     - build-essential
     - libxml2
     - libssh2-1-dev
-    - clang-3.6
     - g++-4.8
     - gcc-4.8
 
@@ -38,4 +37,4 @@ script:
   - mkdir build
   - cd build
   - cmake-3.3 ..
-  - make
+  - make librail
