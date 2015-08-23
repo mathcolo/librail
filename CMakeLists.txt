@@ -32,11 +32,16 @@ add_subdirectory(gason)
 
 include_directories(rapidjson/include)
 
-set(SOURCE_FILES main.cpp)
-add_executable(librail ${SOURCE_FILES})
+set(SOURCE_FILES_LIBRAIL_EXEC main.cpp)
+
+add_library(librail SHARED Station.cpp Station.h)
+set_target_properties(librail PROPERTIES PREFIX "")
+
+add_executable(librail_exec ${SOURCE_FILES_LIBRAIL_EXEC})
+
 target_include_directories(librail PRIVATE cpr/include)
 target_include_directories(librail PRIVATE gason/src)
-
-
 target_link_libraries(librail cpr)
 target_link_libraries(librail gason)
+
+target_link_libraries(librail_exec librail)

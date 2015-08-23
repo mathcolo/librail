@@ -1,13 +1,12 @@
 #include <iostream>
-#include <cpr.h>
-#include <gason.h>
+#include "Station.h"
 
 using namespace std;
 
 int main() {
 
-    JsonValue value;
+    Station test;
 
-    cout << "Hello, World!" << endl;
+    cout << "Station name:" << test.name() << endl;
     return 0;
 }
