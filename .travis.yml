@@ -38,4 +38,4 @@ script:
   - mkdir build
   - cd build
   - cmake-3.3 ..
-  - make
+  - make librail
