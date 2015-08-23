@@ -3,11 +3,11 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
     <generated>
       <config projectName="librail" targetName="chkhostname" />
-      <config projectName="librail" targetName="lib1508" />
-      <config projectName="librail" targetName="lib549" />
+      <config projectName="librail" targetName="curl" />
+      <config projectName="librail" targetName="test-suite" />
       <config projectName="librail" targetName="lib548" />
       <config projectName="librail" targetName="lib547" />
-      <config projectName="librail" targetName="libntlmconnect" />
+      <config projectName="librail" targetName="gasonpp" />
       <config projectName="librail" targetName="lib545" />
       <config projectName="librail" targetName="lib544" />
       <config projectName="librail" targetName="lib543" />
@@ -17,8 +17,7 @@
       <config projectName="librail" targetName="lib597" />
       <config projectName="librail" targetName="libauthretry" />
       <config projectName="librail" targetName="cpr" />
-      <config projectName="librail" targetName="lib572" />
-      <config projectName="librail" targetName="lib574" />
+      <config projectName="librail" targetName="gason" />
       <config projectName="librail" targetName="lib591" />
       <config projectName="librail" targetName="lib590" />
       <config projectName="librail" targetName="sockfilt" />
@@ -26,11 +25,12 @@
       <config projectName="librail" targetName="session_tests" />
       <config projectName="librail" targetName="libcurl" />
       <config projectName="librail" targetName="lib1900" />
-      <config projectName="librail" targetName="lib1511" />
+      <config projectName="librail" targetName="lib1505" />
+      <config projectName="librail" targetName="lib507" />
       <config projectName="librail" targetName="lib539" />
-      <config projectName="librail" targetName="lib558" />
       <config projectName="librail" targetName="lib537" />
       <config projectName="librail" targetName="lib536" />
+      <config projectName="librail" targetName="librail_exec" />
       <config projectName="librail" targetName="lib533" />
       <config projectName="librail" targetName="lib532" />
       <config projectName="librail" targetName="lib530" />
@@ -38,45 +38,45 @@
       <config projectName="librail" targetName="lib586" />
       <config projectName="librail" targetName="lib585" />
       <config projectName="librail" targetName="librail" />
-      <config projectName="librail" targetName="lib583" />
+      <config projectName="librail" targetName="lib549" />
       <config projectName="librail" targetName="lib582" />
-      <config projectName="librail" targetName="lib598" />
+      <config projectName="librail" targetName="lib583" />
       <config projectName="librail" targetName="lib1529" />
       <config projectName="librail" targetName="lib1528" />
       <config projectName="librail" targetName="lib1527" />
       <config projectName="librail" targetName="lib1526" />
       <config projectName="librail" targetName="lib1525" />
+      <config projectName="librail" targetName="lib562" />
       <config projectName="librail" targetName="lib1520" />
-      <config projectName="librail" targetName="get_tests" />
-      <config projectName="librail" targetName="lib1503" />
       <config projectName="librail" targetName="lib529" />
-      <config projectName="librail" targetName="lib518" />
       <config projectName="librail" targetName="lib527" />
       <config projectName="librail" targetName="lib526" />
-      <config projectName="librail" targetName="lib525" />
+      <config projectName="librail" targetName="sws" />
       <config projectName="librail" targetName="lib524" />
       <config projectName="librail" targetName="lib523" />
       <config projectName="librail" targetName="lib579" />
       <config projectName="librail" targetName="lib520" />
       <config projectName="librail" targetName="lib576" />
       <config projectName="librail" targetName="lib575" />
-      <config projectName="librail" targetName="resolve" />
+      <config projectName="librail" targetName="lib574" />
       <config projectName="librail" targetName="lib573" />
-      <config projectName="librail" targetName="test-suite" />
+      <config projectName="librail" targetName="lib572" />
       <config projectName="librail" targetName="lib571" />
       <config projectName="librail" targetName="lib570" />
       <config projectName="librail" targetName="gtest_main" />
+      <config projectName="librail" targetName="proxy_tests" />
       <config projectName="librail" targetName="lib1504" />
       <config projectName="librail" targetName="lib1515" />
       <config projectName="librail" targetName="lib1514" />
       <config projectName="librail" targetName="lib1513" />
       <config projectName="librail" targetName="lib1512" />
-      <config projectName="librail" targetName="mongoose" />
+      <config projectName="librail" targetName="lib1511" />
       <config projectName="librail" targetName="lib1510" />
-      <config projectName="librail" targetName="show" />
+      <config projectName="librail" targetName="lib525" />
+      <config projectName="librail" targetName="get_tests" />
       <config projectName="librail" targetName="lib519" />
-      <config projectName="librail" targetName="proxy_tests" />
-      <config projectName="librail" targetName="lib517" />
+      <config projectName="librail" targetName="lib518" />
+      <config projectName="librail" targetName="resolve" />
       <config projectName="librail" targetName="lib516" />
       <config projectName="librail" targetName="lib515" />
       <config projectName="librail" targetName="lib514" />
@@ -92,42 +92,43 @@
       <config projectName="librail" targetName="getpart" />
       <config projectName="librail" targetName="lib560" />
       <config projectName="librail" targetName="lib1509" />
-      <config projectName="librail" targetName="curl" />
+      <config projectName="librail" targetName="lib1508" />
       <config projectName="librail" targetName="lib1507" />
       <config projectName="librail" targetName="lib1506" />
-      <config projectName="librail" targetName="lib1505" />
+      <config projectName="librail" targetName="libntlmconnect" />
       <config projectName="librail" targetName="lib500" />
       <config projectName="librail" targetName="post_tests" />
       <config projectName="librail" targetName="lib1502" />
       <config projectName="librail" targetName="lib1501" />
       <config projectName="librail" targetName="benchmark" />
       <config projectName="librail" targetName="rtspd" />
-      <config projectName="librail" targetName="lib507" />
-      <config projectName="librail" targetName="fake_ntlm" />
-      <config projectName="librail" targetName="lib508" />
+      <config projectName="librail" targetName="lib598" />
       <config projectName="librail" targetName="lib509" />
+      <config projectName="librail" targetName="lib508" />
+      <config projectName="librail" targetName="mongoose" />
       <config projectName="librail" targetName="lib506" />
       <config projectName="librail" targetName="lib505" />
       <config projectName="librail" targetName="lib504" />
       <config projectName="librail" targetName="lib503" />
       <config projectName="librail" targetName="lib502" />
       <config projectName="librail" targetName="lib501" />
-      <config projectName="librail" targetName="gasonpp" />
+      <config projectName="librail" targetName="lib558" />
       <config projectName="librail" targetName="lib557" />
       <config projectName="librail" targetName="lib556" />
       <config projectName="librail" targetName="lib555" />
-      <config projectName="librail" targetName="lib554" />
+      <config projectName="librail" targetName="show" />
       <config projectName="librail" targetName="lib553" />
       <config projectName="librail" targetName="lib1500" />
-      <config projectName="librail" targetName="lib2033" />
-      <config projectName="librail" targetName="lib562" />
+      <config projectName="librail" targetName="fake_ntlm" />
+      <config projectName="librail" targetName="lib568" />
+      <config projectName="librail" targetName="lib554" />
       <config projectName="librail" targetName="lib569" />
       <config projectName="librail" targetName="tftpd" />
-      <config projectName="librail" targetName="lib568" />
-      <config projectName="librail" targetName="sws" />
+      <config projectName="librail" targetName="lib1503" />
+      <config projectName="librail" targetName="lib2033" />
       <config projectName="librail" targetName="lib521" />
+      <config projectName="librail" targetName="lib517" />
       <config projectName="librail" targetName="hostname" />
-      <config projectName="librail" targetName="gason" />
       <config projectName="librail" targetName="lib578" />
       <config projectName="librail" targetName="lib599" />
       <config projectName="librail" targetName="lib552" />
@@ -159,24 +160,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3846154">
-              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.8226351">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -186,8 +175,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Station.cpp" />
+        <option value="$PROJECT_DIR$/Station.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -199,10 +191,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
+    <option name="x" value="36" />
     <option name="y" value="23" />
-    <option name="width" value="1251" />
-    <option name="height" value="777" />
+    <option name="width" value="1884" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -245,38 +237,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librail" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librail" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librail" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gason" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -285,9 +245,12 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="Application.librail">
+  <component name="RunManager" selected="Application.librail_exec">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="librail" TARGET_NAME="librail" CONFIG_NAME="Debug">
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
     <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
@@ -298,9 +261,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="librail_exec" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="librail" TARGET_NAME="librail_exec" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="librail" RUN_TARGET_NAME="librail_exec">
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.librail" />
+      <item index="2" class="java.lang.String" itemvalue="Application.librail_exec" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -314,16 +282,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="23" width="1251" height="777" extended-state="6" />
+    <frame x="36" y="23" width="1884" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24893843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844576" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744282" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -344,6 +312,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/cpr" />
+      <path value="$PROJECT_DIR$/rapidjson" />
+      <path value="$PROJECT_DIR$/gason" />
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
@@ -351,6 +321,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -377,20 +365,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Station.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Station.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2917342">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.267423">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3846154">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.8226351">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
           <folding />
         </state>
       </provider>
