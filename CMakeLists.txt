@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
 project(librail)
-
-	
 	
 #Try to find RapidJSON library and include path.		
 #Once done this will define		
@@ -26,8 +24,6 @@ INCLUDE(FindPackageHandleStandardArgs)
 # handle the QUIETLY and REQUIRED arguments and set RAPID_JSON_FOUND to TRUE if		
 # all listed variables are TRUE		
 FIND_PACKAGE_HANDLE_STANDARD_ARGS(RAPID_JSON DEFAULT_MSG RAPID_JSON_INCLUDE_DIR)		
-
-
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
